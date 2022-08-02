@@ -20,11 +20,7 @@
 #pricetable tr:hover a {
   color: #ffffff;
 }
-#pricetable tr:hover,
-#pricetable tr.odd:hover {
-  /*background-color: #3d80df;
-	color: #ffffff;*/
-}
+
 #pricetable th {
   font-size: 11px;
   color: #ffffff;
@@ -34,9 +30,7 @@
   height: 30px;
   font-weight: bold;
 }
-#pricetable th:hover {
-  /*background: #ffffff url(tbov.gif) repeat-x;*/
-}
+
 #pricetable tr,
 #pricetable th,
 #pricetable td {
