@@ -1,0 +1,47 @@
+input[type="submit"] {
+  padding: 4px;
+  font-size: 12px;
+}
+input[type="text"] {
+  padding: 8px;
+}
+label {
+  font-size: 12px;
+}
+h2 {
+  font-size: 15px;
+}
+p {
+  font-size: 12px;
+}
+div#envelope {
+  /*width: 80%;
+margin: 10px 30% 10px 11%;*/
+  width: 84%;
+  margin: 10px 30% 10px 6%;
+}
+#resize {
+  display: none;
+}
+.minhide {
+  display: none;
+}
+.minimg {
+  width: 40px;
+}
+form {
+  width: 100%;
+  margin: 0;
+}
+.btncolor,
+input[type="submit"] {
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #7ac9b7;
+  background-color: #4180c5;
+  color: aliceblue;
+  font-size: 15px;
+  cursor: pointer;
+}

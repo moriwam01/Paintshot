@@ -1,0 +1,100 @@
+/* ---- ( iTunes CSS ) ---- */
+#pricetable {
+  font: 100% Verdana, Arial, Helvetica, sans-serif;
+  color: #000;
+  text-align: left;
+  border-collapse: collapse;
+  border: 1px solid #666666;
+}
+#pricetable a {
+  text-decoration: underline;
+  color: #000000;
+}
+#pricetable a:visited {
+  text-decoration: none;
+}
+#pricetable tr.odd {
+  /*background-color: #ebf3ff; EBEBEB*/
+  background-color: #e6eddc;
+}
+#pricetable tr:hover a {
+  color: #ffffff;
+}
+#pricetable tr:hover,
+#pricetable tr.odd:hover {
+  /*background-color: #3d80df;
+	color: #ffffff;*/
+}
+#pricetable th {
+  font-size: 11px;
+  color: #ffffff;
+  text-align: center;
+  /*background: url(tbar.gif) repeat-x;*/
+  background-color: #74a21d; /*#555555; */
+  height: 30px;
+  font-weight: bold;
+}
+#pricetable th:hover {
+  /*background: #ffffff url(tbov.gif) repeat-x;*/
+}
+#pricetable tr,
+#pricetable th,
+#pricetable td {
+  padding: 0.75em;
+}
+#pricetable td {
+  border-left: 1px solid #666666;
+  font-size: 11px;
+}
+#pricetable td.tdhead {
+  border-left: 1px solid #666666;
+  font-weight: bold;
+  font-size: 11px;
+}
+.tdhead1 {
+  /*border-left: 1px solid #666666;*/
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 7px;
+  font-weight: bold;
+  font-size: 11px;
+}
+.tdhead2 {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  font-size: 11px;
+}
+.offer {
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 6px;
+  background-color: #b92d2d;
+  text-align: center;
+}
+a.offer1 {
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+}
+#pricecat a,
+#pricecat a:visited {
+  padding: 3px;
+  border: 1px solid #781f21;
+  text-decoration: none;
+  color: #781f21;
+  margin-right: 6px;
+}
+#pricecat a:hover,
+#pricecat a:active {
+  color: #000;
+  background-color: #ffff80;
+}
+.currentprice {
+  background-color: #781f21;
+  color: #fff !important;
+}
+.dis {
+  color: #ff0000;
+}
