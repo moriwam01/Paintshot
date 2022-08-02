@@ -24,12 +24,13 @@
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
-
 @font-face {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
-  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+  src: local("Open Sans"), local("OpenSans"),
+    url(http://themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff)
+      format("woff");
 }
 
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
@@ -586,18 +587,13 @@ a.thumbnail {
 }
 
 .thumbnail-style a.btn-more {
-  right: -10px;
-
-  bottom: 10px;
-
+  right: 94px;
+  bottom: 0px;
   color: #fff;
-
-  padding: 1px 6px;
-
+  margin: 0px 20px;
+  padding: 10px 16px;
   position: absolute;
-
   background: #d2b55b;
-
   display: inline-block;
 }
 
@@ -608,7 +604,7 @@ a.thumbnail {
 }
 
 .thumbnail-style:hover a.btn-more {
-  right: 10px;
+  /* right: 10px; */
 }
 
 .thumbnail-kenburn img {

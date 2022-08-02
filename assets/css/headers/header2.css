@@ -90,6 +90,12 @@
   border: none;
   background: none;
 }
+.navbar-default {
+  background-color: #832023;
+  border-bottom: 5px solid #d2b55b;
+  justify-content: space-around;
+  display: flex;
+}
 
 .header .navbar-collapse {
   position: relative;
