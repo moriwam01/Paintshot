@@ -563,8 +563,11 @@ a.thumbnail {
 
 .thumbnail-style {
   padding: 5px;
-
   margin-bottom: 20px;
+}
+.sub-select {
+  padding: 5px;
+  margin-left: 30%;
 }
 
 .thumbnail-style:hover {
@@ -599,7 +602,7 @@ a.thumbnail {
 }
 
 .thumbnail-style a.btn-more {
-  right: 94px;
+  /* right: 94px; */
   bottom: 0px;
   color: #fff;
   margin: 0px 20px;
@@ -2147,4 +2150,14 @@ a.offer1 {
 a:hover,
 a:focus {
   color: #4295de;
+}
+.thumbnail-style a.btn-more {
+  /* right: 94px; */
+  bottom: 0px;
+  color: #fff;
+  margin: 0px 20px;
+  padding: 10px 16px;
+  position: absolute;
+  background: #1994cf;
+  display: inline-block;
 }
