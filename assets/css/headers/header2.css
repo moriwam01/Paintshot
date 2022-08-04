@@ -1,6 +1,6 @@
 ------------------------------------*/ .top-v1 {
-  background: #832023; /* fdfdfd  1 f0f0f0 */
-  border-bottom: solid 5px #d2b55b;
+  background: #1994cf; /* fdfdfd  1 f0f0f0 */
+  border-bottom: solid 5px #f6cf13;
 }
 
 /*Top Contacts*/
@@ -40,7 +40,7 @@
 }
 
 .top-v1 .top-v1-data li a:hover {
-  color: #d2b55b;
+  color: #f6cf13;
 }
 
 .top-v1 .top-v1-data li a:hover {
@@ -91,8 +91,8 @@
   background: none;
 }
 .navbar-default {
-  background-color: #832023;
-  border-bottom: 5px solid #d2b55b;
+  background-color: #1994cf;
+  border-bottom: 5px solid #f6cf13;
   justify-content: space-around;
   display: flex;
 }
@@ -110,7 +110,7 @@
 
 /*Navbar*/
 .header .navbar-default .navbar-nav > li > a {
-  color: #687074;
+  color: #0d223c;
   font-size: 15px;
   font-weight: 400;
   padding: 9px 20px;
@@ -118,7 +118,7 @@
 }
 
 .header .navbar-default .navbar-nav > .active > a {
-  color: #72c02c;
+  color: #6cc3e6;
 }
 
 /*Dropdown*/
@@ -138,7 +138,7 @@
 .navbar-toggle,
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background: #72c02c;
+  background: #6cc3e6;
 }
 
 .navbar-toggle {
@@ -146,11 +146,11 @@
 }
 
 .navbar-toggle:hover {
-  background: #5fb611 !important;
+  background: #5dbde5 !important;
 }
 
 .navbar-default .navbar-toggle {
-  border-color: #5fb611;
+  border-color: #5dbde5;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -217,7 +217,7 @@
   .header .navbar-default .navbar-nav > li > a:hover,
   .header .navbar-default .navbar-nav > .active > a {
     color: #fff;
-    background: #72c02c !important;
+    background: #6cc3e6 !important;
   }
 
   .header .navbar-default .navbar-nav > li > a,
@@ -233,7 +233,7 @@
   .header .navbar-default .navbar-nav > .open > a:hover,
   .header .navbar-default .navbar-nav > .open > a:focus {
     color: #fff;
-    background: #72c02c;
+    background: #6cc3e6;
   }
 
   /*Dropdown Menu*/
@@ -245,12 +245,12 @@
     border-radius: 0;
     z-index: 9999 !important;
     margin-top: -2px !important;
-    border-top: solid 2px #72c02c;
-    border-bottom: solid 2px #687074;
+    border-top: solid 2px #6cc3e6;
+    border-bottom: solid 2px #0d223c;
   }
 
   .header .dropdown-menu li a {
-    color: #555;
+    color: #ffe214;
     font-size: 13px;
     font-weight: 400;
     padding: 6px 15px;
@@ -261,7 +261,7 @@
   .header .dropdown-menu li > a:hover {
     color: #fff;
     filter: none !important;
-    background: #687074 !important;
+    background: #0d223c !important;
     -webkit-transition: all 0.1s ease-in-out;
     -moz-transition: all 0.1s ease-in-out;
     -o-transition: all 0.1s ease-in-out;
