@@ -2110,8 +2110,7 @@ a.offer1 {
 .shipping h4 {
   font-size: 1.9rem;
 }
-.shipping p,
-h4 {
+.shipping p {
   margin-left: 13rem;
 }
 .fa-cloud-arrow-up {
